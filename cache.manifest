@@ -1,0 +1,26 @@
+CACHE MANIFEST
+
+# This is a comment.
+
+# Cache manifest version 0.0.1
+
+# If you change the version number in this comment,
+
+# the cache manifest is no longer byte-for-byte
+
+# identical.
+
+/images/apple-touch-icon.png
+/images/ajax-loader.png
+/images/icons-18-black.png
+/images/icons-18-white.png
+/images/icons-36-black.png
+/images/icons-36-white.png
+
+/stylesheets/main.css
+/jquery.mobile-1.0a2.min.css
+
+/javascripts/jquery-1.4.4.min.js
+/javascripts/jquery.mobile-1.0a2.min.js
+
+

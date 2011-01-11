@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+   <title>Dictionary</title> 
+
+   <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   
+   <link rel="stylesheet" href="stylesheets/main.css" />
+   <link rel="stylesheet" href="jquery.mobile-1.0a2.min.css" />
+   
+   <script src="javascripts/jquery-1.4.4.min.js"></script>
+   <script src="javascripts/jquery.mobile-1.0a2.min.js"></script>
+   <script src="javascripts/db/persistence.js" type="application/javascript"></script>
+   <script src="javascripts/db/persistence.store.sql.js" type="application/javascript"></script>
+   <script src="javascripts/db/persistence.store.websql.js" type="application/javascript"></script>
+   <script src="javascripts/db/persistence.jquery.js" type="application/javascript"></script>
+   <script src="javascripts/db/migrator.js" type="application/javascript"></script>
+   <script src="javascripts/db/database.js"></script>
+   <script src="javascripts/ui.js"></script>
+   <script src="javascripts/event.js"></script>
+   <script src="javascripts/dictionary_helper.js"></script>
+   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.load("language", "1");
+  </script>
+  <!-- LIST OF WORDS -->
+ <div id="list-words-page" data-role="page">
+   <div data-role="header" data-position="fixed">
+     <h1>Dictionary</h1>
+     <a href="#add-word-page" data-icon="add" data-theme="b" class="ui-btn-right">Add</a>
+   </div>
+
+   <div data-role="content">
+     <ul id="list-words" data-inset="true" data-role="listview" data-theme="a" class="ui-grid-a">
+     </ul>
+   </div>
+
+   <div data-role="footer" data-position="fixed">
+      <h1>Footer</h1>
+   </div>
+ </div>
+
+  <!-- ADD WORD -->
+ <div id="add-word-page" data-role="page">
+   <div data-role="header">
+     <h1>Add word</h1>
+   </div>
+   <div data-role="content">
+     <form id="add-word-form" action="/words" method="post">
+       <input id="add-phonetic-field" type="hidden" value=""/>
+       <div data-role="fieldcontain">
+         <label for="add-text-field">Text</label>
+         <input type="text" name="text" id="add-text-field" value="" lang="en" autofocus />
+         <span class="phonetic-field"></span>
+       </div>
+       <div data-role="fieldcontain">
+       	<label for="add-translation-field">Translate</label>
+       	<textarea cols="40" rows="10" name="translate" id="add-translation-field" required></textarea><br />
+       	<a href="#" class="translate-by-google">Translate by Google</a>
+       </div>
+       <p><input id="save-and-continue-btn" type="button" value="Save And Continue" /></p>
+       <p><input type="submit" value="Save" /></p>
+     </form>
+   </div>
+ </div>
+ 
+ <!-- WORD PAGE -->
+ <div id="word-page" data-role="page">
+    <div data-role="header" data-position="fixed">
+      <h1>Word page</h1>
+      <a href="#edit-word-page" data-icon="gear" data-theme="b" class="ui-btn-right">Edit</a>
+    </div>
+    <div data-role="content">
+       <div id="word-page-wrapper" class="ui-body-a">
+        
+       </div>
+    </div>
+ </div>
+ 
+ <!-- EDIT WORD -->
+ <div id="edit-word-page" data-role="page">
+   <div data-role="header" data-position="fixed">
+     <h1>Edit word</h1>
+     <a id="delete-word" href="#" data-icon="minus" data-theme="e" class="ui-btn-right">Delete</a>
+   </div>
+   <div data-role="content">
+     <form id="edit-word-form" action="/words" method="put">
+       <input id="edit-phonetic-field" type="hidden" value=""/>
+        <div data-role="fieldcontain">
+          <label for="edit-text-field">Text</label>
+          <input type="text" name="text" id="edit-text-field" value="" lang="en" required />
+          <span class="phonetic-field"></span>
+        </div>
+        <div data-role="fieldcontain">
+        	<label for="edit-translation-field">Translate</label>
+        	<textarea cols="40" rows="8" name="translate" id="edit-translation-field"></textarea><br />
+         	<a href="#" class="translate-by-google">Translate by Google</a>
+        </div>
+        <p><input type="submit" value="Save" /></p>
+      </form>
+   </div>
+ </div>
+
+</body>
+</html>

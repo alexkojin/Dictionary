@@ -1,0 +1,437 @@
+
+{
+    "query":"meaning",
+    "sourceLanguage":"en",
+    "targetLanguage":"ru",
+    "primaries":
+    [
+        {
+            "type":"headword",
+            "terms":
+            [
+                {
+                    "type":"text",
+                    "text":"meaning",
+                    "language":"en"
+                },
+                {
+                    "type":"phonetic",
+                    "text":"
+                    [
+                        ’mi:nɪŋ
+                    ]
+                    ",
+                    "language":"en",
+                    "labels":
+                    [
+                        {
+                            "text":"
+                            [
+                                US
+                            ]
+                            "
+                        }
+                    ]
+                },
+                {
+                    "type":"sound",
+                    "text":"http://www.gstatic.com/dictionary/static/sounds/de/0/meaning.mp3",
+                    "language":"und"
+                }
+            ],
+            "entries":
+            [
+                {
+                    "type":"container",
+                    "labels":
+                    [
+                        {
+                            "text":"adjective",
+                            "title":"Part-of-speech"
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "type":"meaning",
+                            "terms":
+                            [
+                                {
+                                    "type":"text",
+                                    "text":"значительный",
+                                    "language":"ru"
+                                }
+                            ]
+                        },
+                        {
+                            "type":"meaning",
+                            "terms":
+                            [
+                                {
+                                    "type":"text",
+                                    "text":"многозначительный",
+                                    "language":"ru"
+                                }
+                            ]
+                        },
+                        {
+                            "type":"meaning",
+                            "terms":
+                            [
+                                {
+                                    "type":"text",
+                                    "text":"выразительный",
+                                    "language":"ru"
+                                }
+                            ]
+                        },
+                        {
+                            "type":"meaning",
+                            "terms":
+                            [
+                                {
+                                    "type":"text",
+                                    "text":"значащий",
+                                    "language":"ru"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type":"container",
+                    "labels":
+                    [
+                        {
+                            "text":"noun",
+                            "title":"Part-of-speech"
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "type":"meaning",
+                            "terms":
+                            [
+                                {
+                                    "type":"text",
+                                    "text":"значение",
+                                    "language":"ru"
+                                }
+                            ]
+                        },
+                        {
+                            "type":"meaning",
+                            "terms":
+                            [
+                                {
+                                    "type":"text",
+                                    "text":"смысл",
+                                    "language":"ru"
+                                }
+                            ]
+                        },
+                        {
+                            "type":"meaning",
+                            "terms":
+                            [
+                                {
+                                    "type":"text",
+                                    "text":"важность",
+                                    "language":"ru"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "webDefinitions":
+    [
+        {
+            "type":"headword",
+            "terms":
+            [
+                {
+                    "type":"text",
+                    "text":"meaning",
+                    "language":"en"
+                }
+            ],
+            "entries":
+            [
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"the message that is intended or expressed or signified; \x22what is the meaning of this sentence\x22; \x22the significance of a red traffic light\x22; \x22the signification of Chinese characters\x22; \x22the import of his announcement was ambiguous\x22  ",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://wordnetweb.princeton.edu/perl/webwn?s\x3dmeaning\x22\x3ehttp://wordnetweb.princeton.edu/perl/webwn?s\x3dmeaning\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"meaning(a): rich in significance or implication; \x22a meaning look\x22",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://wordnetweb.princeton.edu/perl/webwn?s\x3dmeaning\x22\x3ehttp://wordnetweb.princeton.edu/perl/webwn?s\x3dmeaning\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"The field of semantics is often understood as a branch of linguistics,
+                             but non-idealized meaning as a type of semantics is more accurately a branch of psychology and ethics. ...",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meaning_(linguistics)\x22\x3ehttp://en.wikipedia.org/wiki/Meaning_(linguistics)\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"In existentialism,
+                             meaning is understood as the worth of life. Meaning in existentialism is unlike typical conceptions of \x22the meaning of life\x22,
+                             because it is descriptive. Due to the method of existentialism,
+                             prescriptive or declarative statements about meaning are unjustified. ...",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meaning_(existential)\x22\x3ehttp://en.wikipedia.org/wiki/Meaning_(existential)\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"In semiotics,
+                             the meaning of a sign is its place in a sign relation,
+                             in other words,
+                             the set of roles that it occupies within a given sign relation. This statement holds whether sign is taken to mean a sign type or a sign token. ...",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meaning_(semiotics)\x22\x3ehttp://en.wikipedia.org/wiki/Meaning_(semiotics)\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"A non-linguistic meaning is an actual or possible derivation from sentience,
+                             which is not associated with signs that have any original or primary intent of communication. ...",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meaning_(non-linguistic)\x22\x3ehttp://en.wikipedia.org/wiki/Meaning_(non-linguistic)\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"The nature of meaning,
+                             its definition,
+                             elements,
+                             and types,
+                             was discussed by Aristotle,
+                             Augustine,
+                             and Aquinas (also known as the AAA framework). According to them \x27meaning is a relationship between two sorts of things: signs and the kinds of things they mean (intend,
+                             express or signify)\x27. ...",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meaning_(philosophy_of_language)\x22\x3ehttp://en.wikipedia.org/wiki/Meaning_(philosophy_of_language)\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"\x22Meaning\x22 is the first episode of the third season of House and the forty-seventh episode overall.",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meaning_(House)\x22\x3ehttp://en.wikipedia.org/wiki/Meaning_(House)\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"Music is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony),
+                             rhythm (and its associated concepts tempo,
+                             meter,
+                             and articulation),
+                             dynamics,
+                             and the sonic qualities of timbre and texture. ...",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meaning_(music)\x22\x3ehttp://en.wikipedia.org/wiki/Meaning_(music)\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"The symbolic value of something; The significance of a thing,
+                             as \x22the meaning of life\x22;  The objects or concept that a word or phrase denotes,
+                             or that which a sentence says",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wiktionary.org/wiki/meaning\x22\x3ehttp://en.wiktionary.org/wiki/meaning\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"Meaner - Captain Underpants by Dav Pilkey is a series of American children\x27s books about two fourth graders,
+                             George Beard and Harold Hutchins,
+                             and the aptly-named superhero they accidentally create by hypnotizing their principal,
+                             Mr. Benny Krupp. ...",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meaner\x22\x3ehttp://en.wikipedia.org/wiki/Meaner\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"Meanings is an album by Gad Elbaz. The album has sold over 100,
+                            000 copies in Israel alone,
+                             and many more around the world including the USA.",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wikipedia.org/wiki/Meanings_(album)\x22\x3ehttp://en.wikipedia.org/wiki/Meanings_(album)\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"meaner - Comparative form of mean: more mean",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wiktionary.org/wiki/meaner\x22\x3ehttp://en.wiktionary.org/wiki/meaner\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"meaned -  Having a specific type of mean (mathematical mean)",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://en.wiktionary.org/wiki/meaned\x22\x3ehttp://en.wiktionary.org/wiki/meaned\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                },
+                {
+                    "type":"meaning",
+                    "terms":
+                    [
+                        {
+                            "type":"text",
+                            "text":"(Sinn) is an individual\x26#39;s subjective worthiness. Sociology seeks neither correct nor true meaning of social action,
+                             which is the realm of normative disciplines and not of empirical science.",
+                            "language":"en"
+                        },
+                        {
+                            "type":"url",
+                            "text":"\x3ca href\x3d\x22http://www.ne.jp/asahi/moriyuki/abukuma/outline/outline_basic_concept.html\x22\x3ehttp://www.ne.jp/asahi/moriyuki/abukuma/outline/outline_basic_concept.html\x3c/a\x3e",
+                            "language":"en"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+},
+200,
+null)

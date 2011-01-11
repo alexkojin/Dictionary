@@ -1,0 +1,43 @@
+
+body{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* Change default jQueryMobile styles */
+.ui-header{
+  height: 50px;
+}
+
+.ui-btn{
+  font-size: 16px !important;
+  padding-right: 10px;
+}
+
+#list-words p{
+  font-size: 16px;
+  margin: 0px;
+  padding: 3px 0px;
+}
+
+#list-words .translation{
+  color: #aaa;
+}
+
+#list-words .learned{
+  text-decoration: line-through;
+}
+
+#word-page-wrapper{
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  width: 500px;
+  height: 400px;
+  padding: 10px 20px;
+  background-color: #2a2a2a;
+  border-radius: 15px;
+}
